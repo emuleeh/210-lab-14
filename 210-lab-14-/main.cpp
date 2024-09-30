@@ -17,4 +17,15 @@ public:
     void setName(string n)  { name = n; }
     int getRed()            { return red; }
     void setRed(int r)      { red = r; }
-}
+    int getGreen()          { return green; }
+    void setGreen(int g)    { green = g; }
+    int getBlue()           { return blue; }
+    void setBlue(int b)     { blue = b; }
+    
+    //print method
+    void print() {
+        cout << setw(W12) << "Red: " << red << endl;
+        cout << setw(W12) << "Green: " << green << endl;
+        cout << setw(W12) << "Blue: " << blue << endl;
+    }
+};
