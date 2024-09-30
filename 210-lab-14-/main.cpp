@@ -3,8 +3,10 @@
 #include <iomanip>
 using namespace std;
 
+//Constant for outputting
 const int W12 = 12;
 
+//Class for color
 class Color {
 private:
     string name;
@@ -30,6 +32,7 @@ public:
     }
 };
 
+//for print method
 void print(Color);
 
 int main() {
@@ -64,6 +67,7 @@ int main() {
     return 0;
 }
 
+//Output the RGB values
 void print(Color c) {
-    cout << c.getName() << "RGB values: (" << c.getRed() << ", " << c.getGreen() << ", " << c.getBlue() << ")" << endl;
+    cout << c.getName() << " RGB values: (" << c.getRed() << ", " << c.getGreen() << ", " << c.getBlue() << ")\n" << endl;
 }
