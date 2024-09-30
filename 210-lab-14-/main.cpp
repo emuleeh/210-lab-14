@@ -1,15 +1,10 @@
-//
-//  main.cpp
-//  210-lab-14-
-//
-//  Created by E on 9/29/24.
-//  Copyright © 2024 E. All rights reserved.
-//
-
+//COMSC 210 | Lab 14 | Em
 #include <iostream>
+#include <iomanip>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+const int W12 = 12;
+
+class Color {
+private:
 }
