@@ -65,5 +65,5 @@ int main() {
 }
 
 void print(Color c) {
-    cout << c.getName() << "RGB values: (" << c.getRed() << ", " << c.getGreen() << ", " << c.getBlue() << endl;
+    cout << c.getName() << "RGB values: (" << c.getRed() << ", " << c.getGreen() << ", " << c.getBlue() << ")" << endl;
 }
