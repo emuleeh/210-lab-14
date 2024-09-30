@@ -45,7 +45,7 @@ int main() {
     
     //Object 2
     Color sky;
-    sky.setname("Sky");
+    sky.setName("Sky");
     sky.setRed(171);
     sky.setGreen(225);
     sky.setBlue(255);
@@ -64,3 +64,6 @@ int main() {
     return 0;
 }
 
+void print(Color c) {
+    cout << c.getName() << "RGB values: (" << c.getRed() << ", " << c.getGreen() << ", " << c.getBlue() << endl;
+}
