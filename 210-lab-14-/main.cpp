@@ -29,3 +29,28 @@ public:
         cout << setw(W12) << "Blue: " << blue << endl;
     }
 };
+
+void print(Color);
+
+int main() {
+    cout << fixed << setprecision(2);
+    //Object 1
+    Color lavender;
+    lavender.setName("Lavender");
+    lavender.setRed(230);
+    lavender.setGreen(203);
+    lavender.setBlue(243);
+    lavender.print();
+    print(lavender);
+    
+    //Object 2
+    Color sky;
+    sky.setname("Sky");
+    sky.setRed(171);
+    sky.setGreen(225);
+    sky.setBlue(255);
+    sky.print();
+    print(sky);
+    
+    
+}
