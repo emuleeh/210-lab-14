@@ -52,5 +52,15 @@ int main() {
     sky.print();
     print(sky);
     
+    //Object 3
+    Color pink;
+    pink.setName("Pink");
+    pink.setRed(254);
+    pink.setGreen(228);
+    pink.setBlue(255);
+    pink.print();
+    print(pink);
     
+    return 0;
 }
+
